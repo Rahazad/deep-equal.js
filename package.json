@@ -1,0 +1,48 @@
+{
+	"name": "@rahazad/deep-equal",
+	"version": "0.0.0",
+	"description": "Compare javascript objects (`{}`) DEEPLY (recursively). It also compares other types regularly.",
+	"keywords": [
+		"javascript",
+		"js",
+		"object",
+		"objects",
+		"{}",
+		"[object Object]",
+		"equality",
+		"deep-compare",
+		"deep-compare-objects",
+		"recursive-compare",
+		"recursive-compare-objects"
+	],
+	"homepage": "https://github.com/Rahazad/deep-equal.js#readme",
+	"bugs": {
+		"url": "https://github.com/Rahazad/deep-equal.js/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Rahazad/deep-equal.js.git"
+	},
+	"license": "MIT",
+	"author": "S. M. Mir-Ismaili <s.m.mirismaili@gmail.com>",
+	"type": "module",
+	"main": "dist/index.js",
+	"module": "dist/index.modern.js",
+	"source": "src/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "microbundle-crl --no-compress --format modern,cjs",
+		"prepare": "run-s build",
+		"start": "microbundle-crl watch --no-compress --format modern,cjs"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"microbundle-crl": "^0.13.11",
+		"npm-run-all": "^4.1.5"
+	},
+	"engines": {
+		"node": ">=10"
+	}
+}
