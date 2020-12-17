@@ -1,6 +1,6 @@
 {
 	"name": "@rahazad/deep-equal",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Compare javascript objects (`{}`) DEEPLY (recursively). It also compares other types regularly.",
 	"keywords": [
 		"javascript",

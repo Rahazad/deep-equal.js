@@ -4,7 +4,7 @@
  */
 
 export const deepEqual = (var1, var2) => {
-	if (var1 === var2) return true
+	if (Object.is(var1, var2)) return true
 
 	const prototype = Object.prototype.toString.call(var1)
 
@@ -26,7 +26,7 @@ export const deepEqual = (var1, var2) => {
 	if (var1 instanceof Array) {
 		if (var1.length !== var2.length) return false
 
-		for (let i = 0; i < var1.length; i++)
+		for (const i in var1)
 			if (!(deepEqual(var1[i], var2[i]))) return false
 
 		return true
