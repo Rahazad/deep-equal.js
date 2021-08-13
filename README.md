@@ -1,46 +1,26 @@
-# deep-equal
+# Deep-Equal
 
 > **Compare javascript objects (`{}`) DEEPLY (recursively). It also compares other types regularly.**
 
-<p dir="auto">
-	<a href="https://npmjs.com/package/@rahazad/deep-equal">
-		<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@rahazad/deep-equal.svg">
-	</a>
-	<a href="https://packagephobia.now.sh/result?p=@rahazad/deep-equal">
-		<img src="https://packagephobia.now.sh/badge?p=@rahazad/deep-equal" alt="install size">
-	</a>
-	<a href="https://npmjs.com/package/@rahazad/deep-equal">
-		<img alt="npm" src="https://img.shields.io/npm/dt/@rahazad/deep-equal.svg">
-	</a>
-	<br>
-	<a href="https://david-dm.org/Rahazad/deep-equal.js">
-		<img src="https://david-dm.org/Rahazad/deep-equal.js.svg" alt="Dependencies Status">
-	</a>
-	<a href="https://david-dm.org/Rahazad/deep-equal.js?type=dev">
-		<img src="https://david-dm.org/Rahazad/deep-equal.js/dev-status.svg" alt="devDependencies Status">
-	</a>
-	<br>
-	<a href="https://github.com/Rahazad/deep-equal.js/blob/master/LICENSE">
-		<img alt="GitHub" src="https://img.shields.io/github/license/Rahazad/deep-equal.js.svg">
-	</a>
-	<a href="https://github.com/Rahazad/deep-equal.js/fork">
-		<img src="https://img.shields.io/github/forks/Rahazad/deep-equal.js.svg?style=social" alt="GitHub forks">
-	</a>
-	<a href="https://github.com/Rahazad/deep-equal.js">
-		<img src="https://img.shields.io/github/stars/Rahazad/deep-equal.js.svg?style=social" alt="GitHub stars">
-	</a>
-</p>
+[![npm (scoped)](https://img.shields.io/npm/v/@graphix/deep-equal.svg)](https://npmjs.com/package/@graphix/deep-equal)
+[![install size](https://packagephobia.now.sh/badge?p=@graphix/deep-equal)](https://packagephobia.now.sh/result?p=@graphix/deep-equal)
+[![downloads](https://img.shields.io/npm/dt/@graphix/deep-equal.svg)](https://npmjs.com/package/@graphix/deep-equal) <br>
+[![dependencies](https://david-dm.org/Rahazad/deep-equal.js.svg)](https://david-dm.org/Rahazad/deep-equal.js)
+[![devDependencies](https://david-dm.org/Rahazad/deep-equal.js/dev-status.svg)](https://david-dm.org/Rahazad/deep-equal.js?type=dev) <br>
+[![license](https://img.shields.io/github/license/Rahazad/deep-equal.js.svg)](https://github.com/Rahazad/deep-equal.js/blob/master/LICENSE)
+[![Forks](https://img.shields.io/github/forks/Rahazad/deep-equal.js.svg?style=social)](https://github.com/Rahazad/deep-equal.js/fork)
+[![Stars](https://img.shields.io/github/stars/Rahazad/deep-equal.js.svg?style=social)](https://github.com/Rahazad/deep-equal.js)
 
 ## Installation
 
 ```bash
-npm i @rahazad/deep-equal
+npm i @graphix/deep-equal
 ```
 
 or using `yarn`:
 
 ```bash
-yarn add @rahazad/deep-equal
+yarn add @graphix/deep-equal
 ```
 
 ## Usage
